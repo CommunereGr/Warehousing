@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>App.Api</name>
+    </assembly>
+    <members>
+        <member name="M:App.Api.Controllers.ProductController.GetAll">
+            <summary>
+            Retrieves all products.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:App.Api.Controllers.ProductController.GetById(System.Int32)">
+            <summary>
+            Retrieves products by its id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:App.Api.Controllers.ProductController.Create(Infra.ApplicationServices.Commands.ProductAggregate.CreateProductCommand)">
+            <summary>
+            Creates a new product.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:App.Api.Controllers.ProductController.IncrementStock(Infra.ApplicationServices.Commands.ProductAggregate.IncrementProductStockCommand)">
+            <summary>
+            Increments stock of the requested product.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:App.Api.Controllers.ProductController.DecrementStock(Infra.ApplicationServices.Commands.ProductAggregate.DecrementProductStockCommand)">
+            <summary>
+            Decrements stock of the requested product.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
